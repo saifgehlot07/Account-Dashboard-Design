@@ -1,0 +1,342 @@
+/* Basic Setting Start */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+/* Basic Setting End */
+
+/* Navbar Styles Starts */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+nav .main-header-text {
+  display: flex;
+  align-items: center;
+}
+
+nav .main-header-text .account-text p {
+  font-size: 0.8rem;
+}
+
+nav .main-header-text .account-text {
+  display: block;
+  align-items: center;
+}
+
+nav .main-header-text i {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 5px 15px 0;
+}
+
+nav .sign-out-btn {
+  display: flex;
+  align-items: center;
+  background-color: rgba(10, 25, 49, 0.02);
+  border-radius: 27px;
+  padding: 5px 16px;
+}
+
+nav .sign-out-btn i {
+  color: rgba(24, 90, 219, 0.7);
+  font-size: 1.3rem;
+  padding-right: 0.7rem;
+}
+/* Navbar Styles End */
+
+/* Header Styles Start */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  margin-top: 1.5rem;
+}
+
+/* Sidebar Styles Start */
+
+.sidebar {
+  width: 30%;
+}
+
+.sidebar .user-profile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 1rem;
+  width: 100%;
+  height: 67px;
+  color: #fff;
+  background: linear-gradient(180deg, rgba(24, 90, 219, 0.7) 0%, #185adb 100%);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sidebar .user-profile h2 {
+  font-size: 1rem;
+}
+
+.sidebar .user-profile p {
+  font-size: 0.7rem;
+}
+
+.sidebar .vip-membership .heading {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .vip-membership {
+  position: relative;
+  margin-top: 10px;
+}
+
+.sidebar .vip-membership .heading .uil-diamond {
+  background: linear-gradient(180deg, rgba(10, 25, 49, 0.6) 0%, #0a1931 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.sidebar .vip-membership .heading .uil-arrow-right {
+  font-size: 1.3rem;
+  color: rgba(24, 90, 219, 1);
+}
+
+/* .sidebar .user-profile::before {
+  content: "";
+  position: absolute;
+  background: #5697ff;
+  transform: rotate(180deg);
+  width: 410px;
+  height: 20px;
+  bottom: 0;
+  left: 0;
+} */
+
+.left-bags {
+  position: relative;
+  display: block;
+  padding: 10px;
+}
+
+.left-bags .bags,
+.left-bags .Validity {
+  display: block;
+}
+
+.left-bags .bags .bags-valisity,
+.left-bags .Validity .bags-valisity {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-bags .bags .bags-valisity p,
+.left-bags .Validity .bags-valisity p {
+  font-size: 0.6rem;
+}
+
+.left-bags .bags .progress {
+  width: 100%;
+  height: 16px;
+  background: rgba(10, 25, 49, 0.1);
+  border-radius: 6px;
+}
+
+.upgrade-btn {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 167, 0, 1);
+  border-radius: 8px;
+}
+
+/* .left-bags .bags span::before {
+  content: "";
+  position: absolute;
+  width: 59%;
+  height: 100%;
+  background: linear-gradient(
+    270deg,
+    rgba(10, 25, 49, 0.8) 0%,
+    rgba(10, 25, 49, 0.3) 100%
+  );
+  border-radius: 6px;
+} */
+
+.sidebar .side-buttons {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.sidebar .side-buttons li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sidebar .side-buttons li:hover {
+  background: rgba(24, 90, 219, 0.1);
+}
+
+.sidebar .side-buttons li a {
+  color: rgba(10, 25, 49, 0.9);
+}
+
+.sidebar .side-buttons li a i {
+  padding-right: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  color: rgba(24, 90, 219, 0.7);
+}
+
+/* Sidebar Styles End */
+
+/* Summary Data Start */
+
+.summary-data {
+  width: 68%;
+}
+
+.summary-data .sec-heading h1 {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.summary-data .latest-data {
+  padding: 10px;
+  background: #f7f7f9;
+  border-radius: 12px;
+}
+
+.summary-data .latest-data .data-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-data .latest-data .data-col .col {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  margin: 0 5px;
+  border-radius: 8px;
+}
+
+.summary-data .latest-data .data-col .col h1 {
+  font-size: 1.2rem;
+}
+
+.summary-data .latest-data .data-col .col p {
+  font-size: 0.7rem;
+}
+
+.recent-booking .booking-sec-heading h1 {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1.5rem 0 0.5rem 0.5rem;
+  font-weight: 500;
+}
+
+.recent-booking .bookings-rows {
+  display: block;
+}
+
+.recent-booking .booking-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.recent-booking .booking-row .book-col-heading {
+  background-color: var(--i-0);
+  color: var(--i-1);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.recent-booking .booking-row .book-col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+.recent-booking .booking-row .sum-col {
+  padding: 5px;
+}
+
+.recent-booking .booking-row .sum-col h2 {
+  font-size: 0.8rem;
+}
+
+.recent-booking .booking-row .sum-col p {
+  color: rgba(10, 25, 49, 0.6);
+}
+
+.recent-booking .booking-row .sum-col:nth-child(1) {
+  margin-top: 1rem;
+}
+
+.recent-booking .booking-row .sum-col:nth-child(1) h2 {
+  font-size: 1rem;
+}
+
+/* Summary Data End */
+
+/* Header Styles End */
