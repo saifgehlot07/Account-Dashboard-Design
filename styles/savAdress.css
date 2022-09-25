@@ -1,0 +1,69 @@
+.Address-data {
+  width: 68%;
+}
+
+.Address-data .sec-heading h1 {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.Address-data .address-row {
+  padding: 10px;
+  background: #f7f7f9;
+  border-radius: 12px;
+  height: 78vh;
+}
+
+.Address-data .address-row .addrs-col {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.Address-data .address-row .addrs-col .default-setting a {
+  color: rgba(10, 25, 49, 1);
+  background-color: rgba(10, 25, 49, 0.08);
+  font-size: 10px;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.Address-data .address-row .addrs-col .default-setting i {
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.Address-data .address-row .addrs-col .default-setting {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 10px;
+  right: 2px;
+}
+
+.Address-data .address-row .addrs-col i {
+  color: rgba(10, 25, 49, 0.6);
+  font-size: 1.6rem;
+  margin-right: 0.8rem;
+}
+
+.Address-data .address-row .addrs-col {
+  background-color: #fff;
+  width: 55%;
+  margin-bottom: 1rem;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.Address-data .address-row .addrs-col h1 {
+  font-size: 1rem;
+  color: rgba(10, 25, 49, 0.9);
+}
+
+.Address-data .address-row .addrs-col p {
+  font-size: 0.7rem;
+  color: rgba(10, 25, 49, 0.9);
+}
