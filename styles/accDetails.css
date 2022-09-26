@@ -52,24 +52,33 @@
 
 .accDetail-data .accDetail-row .accDetail-col {
   width: 55%;
-  margin-bottom: 1rem;
-  padding: 20px;
+  padding: 10px 5px;
   border-radius: 8px;
   display: block;
-  border-bottom: 1px solid #eeee;
+  border-bottom: 2px solid #eeee;
+}
+
+.accDetail-data .accDetail-row .accDetail-col p {
+  font-size: 0.65rem;
+}
+
+.accDetail-data .accDetail-row .accDetail-col .accDetail-tex i {
+  font-size: 0.8rem;
 }
 
 .accDetail-data .accDetail-row .accDetail-col .accDetail-tex {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 
-.accDetail-data .accDetail-row .accDetail-col h1 {
+.accDetail-data .accDetail-row .accDetail-col .accDetail-tex a {
+  font-size: 0.8rem;
+}
+
+.accDetail-data .accDetail-row .accDetail-col h3 {
   font-size: 1rem;
-  color: rgba(10, 25, 49, 0.9);
-}
-
-.accDetail-data .accDetail-row .accDetail-col p {
-  font-size: 0.7rem;
+  font-weight: 400;
   color: rgba(10, 25, 49, 0.9);
 }

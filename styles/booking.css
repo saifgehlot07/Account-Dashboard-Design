@@ -43,17 +43,6 @@ nav .main-header-text {
   align-items: center;
 }
 
-.side-buttons ul li a.active {
-  background: rgba(24, 90, 219, 0.1) !important;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  height: 50px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
 nav .main-header-text .account-text p {
   font-size: 0.8rem;
 }
@@ -78,9 +67,10 @@ nav .sign-out-btn {
   padding: 5px 16px;
 }
 
-nav .sign-out-btn img {
-  margin-right: 0.3rem;
-  width: 20px;
+nav .sign-out-btn i {
+  color: rgba(24, 90, 219, 0.7);
+  font-size: 1.3rem;
+  padding-right: 0.7rem;
 }
 /* Navbar Styles End */
 
