@@ -76,6 +76,7 @@ nav .sign-out-btn {
   background-color: rgba(10, 25, 49, 0.02);
   border-radius: 27px;
   padding: 5px 16px;
+  color: #000;
 }
 
 nav .sign-out-btn img {
@@ -181,11 +182,23 @@ nav .sign-out-btn img {
 }
 
 .left-bags .progress-bar {
+  position: relative;
   width: 100%;
-  height: 1em;
+  height: 0.7em;
   background: rgba(10, 25, 49, 0.1);
-  border-radius: 6px;
-  margin: 5px 0;
+  color: rgba(10, 25, 49, 0.1);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.left-bags .progress-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #185adb;
+  width: 40%;
 }
 
 .upgrade-btn {
