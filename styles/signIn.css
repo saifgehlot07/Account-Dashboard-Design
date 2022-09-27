@@ -17,6 +17,10 @@ header .row {
   border: 1px solid rgba(10, 25, 49, 0.25);
 }
 
+.row .bg-img img {
+  height: 100%;
+}
+
 .row .form {
   margin-right: 6.5rem;
 }
